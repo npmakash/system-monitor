@@ -1,0 +1,27 @@
+{
+  "name": "linux-system-manager-server",
+  "version": "1.0.0",
+  "description": "Node.js System Agent for Linux System Manager (Phase 1)",
+  "main": "dist/app/App.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app/App.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/app/App.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.7",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  }
+}
